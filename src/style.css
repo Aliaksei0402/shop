@@ -1,0 +1,206 @@
+#app {
+    background-color: #b3adad;
+}
+
+.header {
+    top: 0px;
+    min-width: 100%;
+    position: relative;
+    background-color: #8c8181;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1500px;
+    align-items: center;
+}
+
+.header img {
+    max-width: 80px;
+}
+
+.logo {
+    width: 8%;
+}
+
+.searching {
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid #8c8181;
+    border-radius: 0.25rem;
+    margin-right: 25px !important;
+    margin-left: 25px !important;
+}
+
+.search-btn {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.search-btn img {
+    margin-left: 5px;
+    max-width: 20px;
+}
+
+.search-btn:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+}
+
+.cart {
+    max-height: 38px;
+    border-color: #ced4da !important;
+}
+
+.cart span {
+    border: 1px solid #ced4da;
+    border-radius: 25rm;
+}
+
+.cart img {
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.main-section {
+    min-width: 1000px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background-color: #cfcaca;
+}
+
+.goods {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.table-view {
+    width: 22%;
+    margin-bottom: 30px;
+    height: 420px;
+}
+
+img.title-img-table {
+    height: 265px;
+}
+
+.card-body {
+    height: 125px;
+    vertical-align: middle;
+}
+
+.pagination {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.sorting {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.sorting img {
+    width: 40px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.sorting img:hover {
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.sort .price {
+    cursor: pointer;
+    border-bottom: 5px dotted green;
+    padding: 3px;
+    margin: 10px;
+}
+
+.sort .price:hover {
+    background-color: grey;
+}
+
+.look img {
+    width: 40px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.look img:hover {
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.card.mb-3 {
+    min-width: 1000px !important;
+}
+
+.title-img {
+    width: auto !important;
+    margin: 20px !important;
+}
+
+.content {
+    display: contents;
+}
+
+.color ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.color ul li img {
+    margin: 20px;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    border: 2px solid #212529;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.colors-phones {
+    display: flex;
+}
+
+.colors-phone {
+    margin-right: 10px;
+}
+
+.phone-hover {
+    cursor: pointer;
+}
+
+.list-view-img-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.count {
+    margin-right: 5px;
+}
+
+.activeColor {
+    border: 2px solid red;
+    border-radius: 0.5em;
+}
+
+.table {
+    width: 200px;
+    height: 400px;
+}
